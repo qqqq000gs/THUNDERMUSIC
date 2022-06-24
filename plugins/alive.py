@@ -79,7 +79,7 @@ async def start(client: Client, message: Message):
 @Client.on_message(commandpro(["repo", "#repo", "@repo", "تنصيب", "bikash", "source"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/50f5cfbd494b902b74f1a.jpg",
+        photo=f"https://telegra.ph/file/4146035f3d58467d50a58.jpg",
         caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
             [

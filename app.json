@@ -61,7 +61,7 @@
         "SOURCE_CODE": {
             "description": "اتركها كما هيا ولا تغيرها.",
             "required": true,
-            "value": "https://dashboard.heroku.com/new?template=https://github.com/THUNDERMUSICC/MUSIC-TO-BACK.git"
+            "value": "https://dashboard.heroku.com/new?template=https://github.com/THUNDERMUSICC/THUNDERMUSIC"
         },
         "STRING_SESSION": {
             "description": "كود البايروجرام",

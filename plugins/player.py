@@ -101,7 +101,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
     draw.text((190, 630), f"Views: {views}", (255, 255, 255), font=font)
     draw.text(
         (190, 670),
-        f"powerd by: M7MD & ELLIOT  (@TTTLL0 @T_8_T_T)",
+        f"powerd by: M7MD & ELLIOT  (@N_J_9 @E_4_1)",
         (255, 255, 255),
         font=font,
     )
@@ -176,7 +176,7 @@ async def play(_, message: Message):
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://telegra.ph/file/50f5cfbd494b902b74f1a.jpg"
+        thumb_name = "https://telegra.ph/file/4146035f3d58467d50a58.jpg"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -199,8 +199,8 @@ async def play(_, message: Message):
                ],
                [
                         InlineKeyboardButton(
-                            text="😎 ثيندر",
-                            url=f"https://t.me/t_hunder")
+                            text="😎 ميم",
+                            url=f"https://t.me/X_8_00")
                    
                 ]
             ]
@@ -252,8 +252,8 @@ async def play(_, message: Message):
                ],
                [
                         InlineKeyboardButton(
-                            text="😎 ثيندر",
-                            url=f"https://t.me/t_hunder")
+                            text="😎 ميم",
+                            url=f"https://t.me/X_8_00")
                    
                 ]
             ]
@@ -261,7 +261,7 @@ async def play(_, message: Message):
 
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://telegra.ph/file/50f5cfbd494b902b74f1a.jpg"
+            thumb_name = "https://telegra.ph/file/4146035f3d58467d50a58.jpg"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
@@ -282,8 +282,8 @@ async def play(_, message: Message):
                ],
                [
                         InlineKeyboardButton(
-                            text="😎 ثيندر",
-                            url=f"https://t.me/T_hunder")
+                            text="😎 ميم",
+                            url=f"https://t.me/X_8_00")
                    
                 ]
             ]
@@ -350,7 +350,7 @@ async def play(_, message: Message):
                ],
                [
                         InlineKeyboardButton(
-                            text="😎ايثون",
+                            text="😎 ميم",
                             url=f"{PROFILE_CHANNEL}")
                    
                 ]
